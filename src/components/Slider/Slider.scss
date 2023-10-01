@@ -1,0 +1,27 @@
+.custom-dots {
+    li {
+        background-color: var(--theme-primary-color) !important;
+        width: 3.5rem !important;
+        height: 0.5rem !important;
+        border-radius: 8px;
+
+        button {
+            background: none !important;
+        }
+    }
+
+    li.slick-active {
+        background-color: #fff !important;
+
+        button {
+            background: none !important;
+        }
+    }
+}
+
+.home__slider {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}

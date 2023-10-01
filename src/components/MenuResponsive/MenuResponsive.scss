@@ -28,6 +28,7 @@
     &__item {
         width: 100%;
         border-top: 1px solid var(--gray-color-1);
+        transition: var(--transition-5);
 
         a {
             width: 100%;
@@ -38,9 +39,12 @@
             padding-bottom: 1.5rem;
 
             &:hover {
-                background-color: var(--gray-color-2);
                 color: var(--black-color);
             }
+        }
+
+        &:hover {
+            background-color: var(--gray-color-2);
         }
     }
 
